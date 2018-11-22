@@ -4,3 +4,6 @@
 [submodule "assets/bootstrap"]
 	path = assets/bootstrap
 	url = https://github.com/pl33/bootstrap-compiled.git
+[submodule "assets/open-iconic"]
+	path = assets/open-iconic
+	url = https://github.com/iconic/open-iconic.git
