@@ -1,0 +1,43 @@
+/*
+Theme Name: FaraFEIT Bootstrap Theme
+Theme URI: https://www.farafeit.de
+Author: Philipp Le
+Description: Theme für den Fachschaftsrat FEIT der Uni Magdeburg
+Version: 1.0
+Text Domain: farafeit
+*/
+
+.rounded
+{
+  border-radius: 1em !important;
+}
+
+.bg-feit
+{
+  background-color: #94d12d;
+}
+
+.navbar-border
+{
+  border-bottom: 1px solid #ced4da;
+}
+
+.navbar-brand img
+{
+  height: 48px;
+}
+
+.transparent-5
+{
+  background-color: rgba(160, 160, 160, 0.6);
+}
+.transparent-5:hover
+{
+  background-color: rgba(160, 160, 160, 1);
+}
+
+.header-image
+{
+  width: 100%;
+  height: auto;
+}

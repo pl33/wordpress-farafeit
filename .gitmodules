@@ -1,0 +1,3 @@
+[submodule "wp-bootstrap-navwalker"]
+	path = wp-bootstrap-navwalker
+	url = https://github.com/wp-bootstrap/wp-bootstrap-navwalker.git
