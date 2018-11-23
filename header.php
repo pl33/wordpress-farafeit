@@ -40,7 +40,9 @@
       <div class="container-fluid mx-0 px-0">
         <?php if ( get_header_image() ) : ?>
           <div class="row px-3 px-lg-0 mt-3 mx-0">
-            <?php if ( is_active_sidebar( 'sidebar-right' ) && !is_front_page() ) : ?>
+            <?php if ( is_front_page() ) : ?>
+            <div class="col-lg-8 mx-auto px-3 px-lg-0 mt-3 d-block">
+            <?php elseif ( is_active_sidebar( 'sidebar-right' ) && !is_front_page() ) : ?>
             <div class="col-lg-10 mx-auto px-3 px-lg-0 mt-3 d-none d-md-block">
             <?php else: ?>
             <div class="col-lg-8 mx-auto px-3 px-lg-0 mt-3 d-none d-md-block">
