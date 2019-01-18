@@ -41,3 +41,11 @@ Text Domain: farafeit
   width: 100%;
   height: auto;
 }
+
+h1, h2, h3, a {
+        color: #94d12d;
+}
+
+a:hover {
+        color: darkgreen;
+}
