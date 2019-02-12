@@ -12,6 +12,22 @@ Text Domain: farafeit
   border-radius: 1em !important;
 }
 
+@media (min-width: 768px)
+{
+	.rounded-md
+	{
+  		border-radius: 1em !important;
+	}
+}
+
+@media (min-width: 992px)
+{
+	.rounded-lg
+	{
+  		border-radius: 1em !important;
+	}
+}
+
 .bg-feit
 {
   background-color: #94d12d;
@@ -48,4 +64,9 @@ h1, h2, h3, a {
 
 a:hover {
         color: darkgreen;
+}
+
+.card-body ul {
+	list-style: none;
+	padding: 0;
 }
