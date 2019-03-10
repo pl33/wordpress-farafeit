@@ -20,7 +20,8 @@
             ?>
           </div>
         </div>
-        <?php if (is_active_sidebar( 'sidebar-right' )) : dynamic_sidebar( 'footer-widgets' ); endif; ?>
+        <?php if (is_active_sidebar( 'footer-widgets' )) : 
+dynamic_sidebar( 'footer-widgets' ); endif; ?>
       </div>
       <?php wp_footer(); ?>
     </footer>
